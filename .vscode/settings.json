@@ -1,0 +1,32 @@
+{
+  "code-runner.runInTerminal": true,
+  "code-runner.executorMap": {
+    "c": "gcc \"$fileName\" -o \"$fileNameWithoutExt.exe\" && ./\"$fileNameWithoutExt.exe\""
+  },
+  "code-runner.clearPreviousOutput": true,
+  "files.associations": {
+    "stdlib.h": "c",
+    "stdio.h": "c"
+  },
+
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  // 자동완성끄기
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.snippetSuggestions": "none",
+  "C_Cpp.suggestSnippets": false,
+  "editor.autoClosingBrackets": "languageDefined",
+  "editor.autoClosingQuotes": "languageDefined",
+  "editor.autoSurround": "languageDefined",
+  "editor.formatOnType": false,
+
+  //코파일럿 끄기
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": true,
+    "markdown": true
+  }
+}
